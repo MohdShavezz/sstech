@@ -210,3 +210,23 @@ background: white;
 .my-float {
     margin-top: 16px;
 }
+.call-for-price {
+  position: fixed;
+  width: 150px;
+  height: 30px;
+  bottom: 5rem;
+  left: -10px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transform: rotate(11deg);
+  cursor: pointer;
+  text-decoration: none;
+  background: linear-gradient(24deg, rgba(66, 57, 219, 1) 0%, rgba(161, 76, 221, 0.9808298319327731) 29%, rgba(0, 212, 255, 1) 100%);
+}
+
