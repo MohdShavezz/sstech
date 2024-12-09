@@ -44,9 +44,20 @@ background: white;
     padding: 10px 20px;
   }
   
+   .logo{
+    display: flex;justify-content: center;
+    margin-left: -21px;
+    background: #02b1bc;
+    padding: 10px;
+    margin-top: -8px;
+    width: 6rem;
+    border-top-left-radius: 27px;
+  }
   .logo img {
+    border-radius: 50px;
     height: 40px;
   }
+  
   
   .nav-links {margin-left: 2rem;
     list-style: none;
