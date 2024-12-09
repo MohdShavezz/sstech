@@ -1,0 +1,201 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .header {
+    position: relative;
+    height: 12vh;
+    background-color: #02b1bc;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 0.9em;    
+    width: 85%;
+    margin: auto;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar {
+width: 100%;
+    position: absolute;
+    margin-left: .7rem;
+    height: 5rem;
+    border: 7px solid white;
+    border-top-left-radius: 30px; 
+    border-top-right-radius: 30px; 
+background: white;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav-links {margin-left: 2rem;
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 8px;
+  }
+  
+  .nav-links a {
+    
+    color: #655f5f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-btn {
+    position: absolute;
+    color: black;
+    right: 5rem;
+  }
+  .contact-btn p {
+    margin: 0;
+  }
+  
+  .contact-btn a {
+    text-decoration: none;
+    color: #ff0;
+  }
+  
+  /* Main Section */
+  .main-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 4rem;
+    font-family: serif;
+    text-align: center;
+    color: #f6ffff;
+    text-shadow: -1px -1px 0 #005d63, 1px -1px 0 #005d63, 1px 1px 0 #005d63, 1px 1px 0 #005d63;
+  }
+  
+  .form-and-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .finance-form {
+    display: grid;
+    gap: 15px;
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    border: 3px dotted #64c9d1;
+  }
+  
+  .finance-form input,
+  .finance-form select,
+  .finance-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .finance-form button {
+    background-color: #007b84;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .finance-form button:hover {
+    background-color: #005d63;
+  }
+  .car-image{
+    width: 50%;
+    height: 50vh;
+  }
+  .car-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+  .social-icons a {
+    background: white;
+    color: #02b1bc;
+    padding: 7px;
+    border-radius: 50%;
+
+  }
+  .social-icons a i{
+    
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  
+  .btn-grad {background-image: linear-gradient(to right, #a44ef5 0%, #5FC3E4  51%, #a24ee7  100%)}
+  .btn-grad {
+    margin: 20px;
+    padding: 9px 14px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    font-weight: 600;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+
+   .whats-app {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 15px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
